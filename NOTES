@@ -1,0 +1,24 @@
+___________
+get_rolls.s|
+___________|
+OBJECTIVE: USER INPUTS NUMBER OF TIMES TO ROLL THE DICE
+1. Consider edge cases on main.s
+STATUS: ✓
+__________
+roll_die.s|
+__________|
+OBJECTIVE: ROLL A RANDOM NUMBER FROM 1 TO 6 AND RETURN
+STATUS: ✓
+______________
+update_count.s|
+______________|
+OBJECTIVE: UPDATE STACK LOCATION CONTAINING PAIR JUST ROLLED
+1. Determine where to increment the location regarding the sum onto the stack
+STATUS: X
+_____________
+print_table.s|
+_____________|
+OBJECTIVE: PRINT TABLE
+1. Print starting from the initial segment of the stack
+STATUS: X (prerequisite update_count.s)
+
